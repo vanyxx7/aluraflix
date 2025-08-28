@@ -17,9 +17,9 @@
            border-color: var(--branco) /*cor da borda*/ 
            padding:20px; /*espaçamento interno*/
             font-size: 32px;/*tamanho da fonte*/ 
-            color: var(--verdeneo)/*cor da fonte*/ 
+            color; var(--verdeneo)/*cor da fonte*/ 
           
-           }
+           }s
            section {
                 background-color: var(--rosa);/*cor de fundo*/
                 padding-bottom: 80px;/*espaçamento inferior*/ 
