@@ -2,7 +2,7 @@
 :root
 { --preto:#000;
      --branco:#ffffff;
-      --rosa:#b1279e; 
+      --rosa:#ce21b7; 
       --verdeneo:#1cf115;
      } 
      /*corpo da pagina*/
@@ -17,7 +17,7 @@
            border-color: var(--branco) /*cor da borda*/ 
            padding:20px; /*espaçamento interno*/
             font-size: 32px;/*tamanho da fonte*/ 
-            color; var(--verdeneo)/*cor da fonte*/ 
+            color; var(--verde )/*cor da fonte*/ 
            }
            
            section {
