@@ -1,32 +1,79 @@
 /*variaveis*/
-:root
-{ --preto:#000;
-     --branco:#ffffff;
-      --rosa:#ce21b7; 
-      --verdeneo:#1cf115;
-     } 
-     /*corpo da pagina*/
-      body
-      { color: var(--branco);/*cor da fonte*/
-         background-color: var(--preto);/*cor do fundo*/
-          margin: 0px;/*não tera margem padrão*/ 
-        } 
+:root{ 
+    --preto:#000; 
+    --branco:#ffffff; 
+    --roxo:#ad7efa; 
+    --azul:#34b4f0;
+    --roxo-escuro:#8425b1; 
+}
+ /*corpo da pagina*/ 
+body{ 
+    color: var(--branco);/*cor da fonte*/
+    background-color: var(--preto);/*cor do fundo*/ 
+    margin: 0px;/*não tera margem padrão*/
+} 
 
-        header { 
-          border: solid 2px;
-           border-color: var(--branco) /*cor da borda*/ 
-           padding:20px; /*espaçamento interno*/
-            font-size: 32px;/*tamanho da fonte*/ 
-            color; var(--verde )/*cor da fonte*/ 
-           }
-           
-           section {
-                background-color: var(--rosa);/*cor de fundo*/
-                padding-bottom: 80px;/*espaçamento inferior*/ 
-                padding-top: 80px;/*espaçamento superior*/ 
-                display:flex;/*alrta a disposição*/ 
-                justify-content: center;/*justificado no centro*/ 
-           }
-           div{ 
-               margin-right: 20px;/*margem a direita*/ 
-          }
+header{ 
+    border: solid 2px; 
+    border-color: var(--branco);/*cor da borda*/ 
+    padding: 20px; /*espaçamento interno*/
+    font-size: 32px;/*tamanho da fonte*/ 
+    color: var(--azul)/*cor da fonte*/ 
+} 
+
+.chamada-texto {
+    background-color: var(--roxo-escuro);
+    color: var(--preto);
+    margin-right: 20px;/*margem a direita*/
+}
+
+.chamada {
+    background: rgb(167, 118, 219);
+     padding-bottom: 80px;/*espaçamento inferior*/
+    padding-top: 80px;/*espaçamento superior*/
+    display: flex;/*alterar a disposição*/
+    justify-content: center;/* justificado no centro*/
+}
+
+h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+
+.recomendacoes {
+    background-color: var(--roxo);
+    margin-left: 30px;/*margem a direita*/
+    margin-right: 30px;/*margem a direita*/
+}
+.outras-recomendacoes {
+    background-color: var(--roxo-escuro);
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-left: 30px;/*margem a direita*/
+    margin-right: 30px;/*margem a direita*/
+   
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+/*rodapé*/
+footer {
+    color: var(--branco);
+    text-align: center;
+}
